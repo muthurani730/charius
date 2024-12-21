@@ -1,0 +1,133 @@
+.navbar>nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-left:100px;
+    gap: 20px;
+    
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown>a{
+    text-decoration: none;
+    color: black;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    background-color: rgb(241, 228, 228);
+    position: absolute;
+    margin-left: -50px;
+    padding: 10px;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 20px;
+    width: 230px;
+}
+nav>a:hover {
+    color: orange;
+}
+.dropdown>a:hover {
+    color: orange;
+}
+.dropdown-content:hover ul>li{
+    height: 25px;
+    width: 160px;
+}
+ul>li{
+    list-style-type: none ;
+}
+.abou{
+    background-image: url('hands.jpg');
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-size:cover;
+}
+.abou2>div{
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+.blogs{
+    display: flex;
+}
+.blog>img{
+    width: 850px;
+    padding-top: 100px;
+    padding-left: 100px;
+    height: 580px;
+}
+.blog>h2{
+    padding-top: 50px;
+    padding-left:100px;
+}
+.blog>h5{
+    padding-top: 10px;
+    padding-left:100px;   
+}
+.blog1>img{
+    width: 850px;
+    padding-top: 100px;
+    padding-left: 100px;
+    height: 580px;
+}
+.blog1>h2{
+    padding-top: 50px;
+    padding-left:100px;
+}
+.blog1>h5{
+    padding-top: 10px;
+    padding-left:100px;   
+}
+.lo{
+    margin-left: 70px;
+    padding-top: 15px;
+}
+.blog3{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.blog4{
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.blog4>h5{
+    padding-top: 40px;
+}
+.blog5{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.blo{
+    display: flex;
+}
+.blo1{
+    padding-top: 30px;
+}
+.blo2{
+    padding-top: 25px;
+    padding-left: 60px;
+}
+.blog6{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.blog7{
+    margin-top: 30px;
+}
